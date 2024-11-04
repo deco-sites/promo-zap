@@ -86,6 +86,7 @@ export default function ImageWithParagraph({
           <p class="leading-normal" style={`text-align:${descriptionPlacement}`}>
             {description}
           </p>
+          <a href="http://www.freepik.com">Designed by vectorjuice / Freepik</a>
           <div class={`flex gap-3 pt-4 justify-${CTA_PLACEMENT[ctaPlacement]}`}>
             {cta?.map((item) => (
               <a

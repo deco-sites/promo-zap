@@ -1,42 +1,97 @@
 {
-    "name": "Home",
-    "path": "/",
-    "sections": [
-      {
-        "__resolveType": "Header"
+  "name": "Home",
+  "path": "/",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Header.tsx",
+      "navigation": {
+        "links": [],
+        "buttons": []
       },
-      {
-        "__resolveType": "site/sections/Hero.tsx",
-        "title": "<p>Click here to tweak this text however you want.</p>",
-        "cta": [],
-        "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."
-      },
-      {
-        "__resolveType": "site/sections/Logos.tsx"
-      },
-      {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx"
-      },
-      {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx",
-        "placement": "right"
-      },
-      {
-        "__resolveType": "site/sections/BlogPosts.tsx"
-      },
-      {
-        "__resolveType": "site/sections/Testimonials.tsx",
-        "arrows": true
-      },
-      {
-        "__resolveType": "site/sections/Faq.tsx"
-      },
-      {
-        "__resolveType": "Footer"
+      "logo": {
+        "src": "https://avatars.githubusercontent.com/u/183840593?s=200&v=4",
+        "alt": "Promozap"
       }
-    ],
-    "__resolveType": "website/pages/Page.tsx",
-    "seo": {
-      "__resolveType": "website/sections/Seo/SeoV2.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Hero.tsx",
+      "title": "<p>Transforme seu potencial em vendas de sucesso</p>",
+      "cta": [],
+      "description": "Com nossa plataforma, você recebe links exclusivos de produtos prontos para venda, facilitando seu trabalho de promoção e divulgação! Nossa missão é conectar você a conteúdos de alta qualidade. Simples, direto e prático: você foca nas vendas, nós cuidamos do resto!"
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "title": "Tudo de forma fácil: Use o whatsapp para falar conosco",
+      "description": "Receba links de forma prática e direta! Entre em contato pelo WhatsApp e descubra como é fácil começar. Sem complicação – você recebe os links, promove e foca nas vendas enquanto cuidamos do suporte. Tudo o que você precisa para começar está a um clique de distância!",
+      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/promo-zap/69a5bce3-3808-41da-97f0-d59b5ef5de10/20943954.jpg",
+      "disableSpacing": {
+        "top": true,
+        "bottom": true
+      },
+      "cta": [],
+      "tagline": "Facilidade"
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "placement": "right",
+      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/promo-zap/e8528ac8-def5-484a-8779-4d2bd62898cd/10093472.jpg",
+      "tagline": "Novidades",
+      "description": "Não perca nenhuma novidade! Inscreva-se no nosso canal e receba atualizações sobre os melhores produtos para promover. Acompanhe dicas exclusivas, novos lançamentos e oportunidades para expandir suas vendas. Fique sempre à frente e transforme suas promoções em sucesso!",
+      "cta": [],
+      "title": "Esteja sempre por dentro de novos lançamentos"
+    },
+    {
+      "__resolveType": "site/sections/Faq.tsx",
+      "description": "Algumas perguntas comuns sobre nossos serviços. Para mais detalhes, entre em contato conosco pelo nosso email: promozapcoin@gmail.com",
+      "cta": {
+        "outline": false,
+        "href": "/",
+        "text": "email acima"
+      },
+      "questions": [
+        {
+          "title": "Qual o número para contato?",
+          "answer": "<p>Entre em contato conosco pelo número: (83) 99397-5190</p>"
+        },
+        {
+          "title": "Como funciona a entrega de links?",
+          "answer": "<p>Você nos diz quais produtos gostaria de receber, e nós lhe mandamos! </p>"
+        },
+        {
+          "title": "É confiável?",
+          "answer": "<p>Claro! Somos uma empresa correta, e os links estarão sempre vinculados a sua conta da plataforma responsável, então não há com o que se preocupar!</p>"
+        },
+        {
+          "title": "Como entro em contato?",
+          "answer": "<p>Você pode entrar em contato com o nosso suporte, através do email: <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:promozapcoin@gmail.com\">promozapcoin@gmail.com</a></p>"
+        }
+      ]
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Footer.tsx",
+        "subscribe": {
+          "title": "Entre em contato!",
+          "description": "Mande uma mensagem",
+          "instructions": "<p>Comece sua jornada!</p>"
+        },
+        "copyright": "© Promozap",
+        "social": [
+          {
+            "network": "Facebook",
+            "href": "https://www.facebook.com/profile.php?id=61567289998170&locale=pt_BR"
+          }
+        ],
+        "logo": {
+          "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/promo-zap/a24d7fd8-e9cc-4a98-be09-2a0a5783c3be/183840593.png"
+        },
+        "links": []
+      }
     }
+  ],
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
   }
+}
